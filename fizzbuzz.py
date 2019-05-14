@@ -15,4 +15,7 @@ def fizzbuzz():
 
 
 if __name__ == '__main__':
-    fizzbuzz()
+    while True:
+        fizzbuzz()
+        shall_continue = input('Print again?')
+        if shall_continue
